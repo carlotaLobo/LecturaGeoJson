@@ -1,0 +1,10 @@
+﻿@model Map.Root
+
+
+
+<ul>
+    @foreach (Map.Feature f in Model.features)
+    {
+        <li>@f.properties.population</li>
+    }
+</ul>
